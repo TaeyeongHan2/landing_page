@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HODU - Lorem Ipsum is simply dummy text of the printing and typesetting industry">
+    <meta name="keywords" content="HODU, printing, typesetting">
+    <title>HODU - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">
+                <a href="#" aria-label="HODU 홈으로 이동">HODU</a>
+            </h1>
+            <nav class="header__nav" aria-label="주요 메뉴">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Support</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav__button">Download</a>
+            </nav>
+
+            <button class="header__menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+                <span class="menu-toggle__bar"></span>
+                <span class="menu-toggle__bar"></span>
+                <span class="menu-toggle__bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h2 class="hero__title">
+                        Lorem Ipsum is simply<br>
+                        dummy text of the printing and
+                    </h2>
+                    <p class="hero__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <a href="#" class="hero__button">Download</a>
+                </div>
+                <div class="hero__image">
+                    <img src="images/cat-box.png" alt="박스를 쓴 귀여운 고양이">
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="content__container">
+                <div class="content__image">
+                    <img src="images/cat-laying.png" alt="편안하게 누워있는 고양이">
+                </div>
+                <div class="content__text">
+                    <h3 class="content__title">
+                        Lorem Ipsum is simply<br>
+                        dummy text of the printing<br>
+                        and dummy text
+                    </h3>
+                    <p class="content__description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery__container">
+                <h3 class="gallery__title">
+                    dummy text of the printing and dummy
+                </h3>
+                <p class="gallery__description">
+                    Lorem Ipsum is simply <strong>dummy text</strong> of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <div class="gallery__grid">
+                    <img src="images/cat-1.png" alt="고양이 사진 1" class="gallery__item">
+                    <img src="images/cat-2.png" alt="고양이 사진 2" class="gallery__item">
+                    <img src="images/cat-3.png" alt="고양이 사진 3" class="gallery__item">
+                </div>
+                <p class="gallery__text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br>
+                    Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <a href="#" class="gallery__button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="subscribe__container">
+                <h3 class="subscribe__title">Subscribe to our Blog post</h3>
+                <p class="subscribe__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text
+                </p>
+                <form class="subscribe__form" aria-label="이메일 구독 폼">
+                    <input 
+                        type="email" 
+                        class="subscribe__input" 
+                        placeholder="Enter your email address"
+                        aria-label="이메일 주소 입력"
+                        required
+                    >
+                    <button type="submit" class="subscribe__button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <h2 class="footer__logo">HODU</h2>
+            <nav class="footer__nav" aria-label="하단 메뉴">
+                <ul class="footer__links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </nav>
+            <div class="footer__social" aria-label="소셜 미디어">
+                <a href="#" class="social__link" aria-label="블로그">
+                    <span class="social__icon social__icon--blog">b</span>
+                </a>
+                <a href="#" class="social__link" aria-label="인스타그램">
+                    <span class="social__icon social__icon--instagram">i</span>
+                </a>
+                <a href="#" class="social__link" aria-label="페이스북">
+                    <span class="social__icon social__icon--facebook">f</span>
+                </a>
+                <a href="#" class="social__link" aria-label="유튜브">
+                    <span class="social__icon social__icon--youtube">y</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="맨 위로 이동">
+        <span class="scroll-top__icon">↑</span>
+    </button>
+
+    <div class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <h2 id="modal-title" class="modal__title">Thank you!</h2>
+            <p class="modal__description">
+                Lorem Ipsum is simply dummy text of the printing industry
+            </p>
+            <button class="modal__button">OK! I love HODU</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
