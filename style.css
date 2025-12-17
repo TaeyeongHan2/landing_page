@@ -85,3 +85,35 @@ img {
 .nav__link:hover {
     color: #D97652;
 }
+
+/* Download Button */
+.nav__button {
+    background-color: #D97652;
+    color: #FFFFFF;
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav__button:hover {
+    background-color: #c56643;
+    transform: translateY(-1px);
+}
+
+/* Mobile Menu Toggle */
+.header__menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+}
+
+.menu-toggle__bar {
+    width: 24px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
